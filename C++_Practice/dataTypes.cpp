@@ -11,4 +11,17 @@ int main()
     bool isMale = true;
 
     cout << grade << endl;
+
+    phrase = "getting some practice in";
+
+    cout << "hello \n";
+    cout << "class c867" << endl;
+
+    cout << "" << endl;
+
+    cout << phrase << endl;
+    cout << phrase.length() << endl;
+    cout << phrase[2];
+    
+    return 0;
 }
