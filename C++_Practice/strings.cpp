@@ -14,6 +14,9 @@ int main()
 
     phrase[2] = 'B';
     cout << phrase << endl;
-    
+    cout << phrase.find("Everyone", 0) << endl;
+
+    string phrasesub = phrase.substr(1, 5);
+    cout << phrasesub << endl;
     return 0;
 }
